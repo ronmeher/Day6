@@ -6,20 +6,17 @@ namespace Day6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Day 6 Programs!");
 
-            int i, count, f1 = 0, f2 = 1, f3 = 0;
-            Console.Write("Enter the Limit : ");
-            count = int.Parse(Console.ReadLine());
-            Console.WriteLine(f1);
-            Console.WriteLine(f2);
-            for (i = 0; i <= count; i++)
-            {
-                f3 = f1 + f2;
-                Console.WriteLine(f3);
-                f1 = f2;
-                f2 = f3;
-            }
-            Console.ReadLine();
+            //Fibonacci p1 = new Fibonacci();
+            //p1.f1();
+
+
+            //PerfectNumber p2 = new PerfectNumber();
+            //p2.f2();
+
+            PrimeNumber p3 = new PrimeNumber();
+            p3.f3();
 
         }
 
